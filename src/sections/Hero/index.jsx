@@ -251,8 +251,10 @@ const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.04, borderColor: '#4338ca', color: '#4338ca' }}
                 whileTap={{ scale: 0.97 }}
-                href="/resume.pdf"
-                download
+                href="/Sajeel-Anwar-CV.pdf"
+                download="Sajeel-Anwar-CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-600 rounded-xl font-semibold text-sm bg-white/70 backdrop-blur-sm transition-colors"
               >
                 <FaFileDownload className="text-base" />
